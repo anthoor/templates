@@ -1,0 +1,24 @@
+\documentclass{beamer}
+\usetheme[titlepagelogo=aic,language=english]{TorinoTh}
+                        
+\usepackage[beamer,customcolors]{hf-tikz}
+\usepackage{verbatim}
+
+\hfsetfillcolor{alerted text.fg!10}
+\hfsetbordercolor{alerted text.fg}
+
+\author{Your Name\\ \tiny{ROLLNUMBER}}
+\rel{Guide Name}
+\title[Short Title]{Full Title of the Presentation}
+\ateneo{Malabar Institute of Technology, Anjarakandy \\ Department of Computer Science \& Engineering}
+\date{\today}
+\AtBeginSection[]
+{
+  \begin{frame}<beamer>{Outline}
+    \tableofcontents[currentsection,currentsubsection]
+  \end{frame}
+}
+\begin{document}
+    \input{contents_1}
+    \input{contents_2}
+\end{document}

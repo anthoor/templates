@@ -1,0 +1,48 @@
+\documentclass{cls/thesis}
+\begin{document}
+\maketitle
+\fontsize{12}{12}\selectfont	
+\pagestyle{fancy}
+\begin{spacing}{1.5}
+\input{tex/certificate}
+\input{tex/declaration}
+\input{tex/abstract}
+\input{tex/acknowledgement}
+\end{spacing}
+\pagestyle{plain}
+\tableofcontents
+\newpage
+\addcontentsline{toc}{chapter}{List of Tables}
+\listoftables
+\newpage
+\addcontentsline{toc}{chapter}{List of Figures}
+\listoffigures
+\newpage
+\addcontentsline{toc}{chapter}{List of Abbreviations}
+\input{tex/abbreviation}
+\pagenumbering{arabic}
+
+
+\fontsize{12}{12}\selectfont	
+\pagestyle{fancy}
+\begin{spacing}{1.5}
+% Start of chapters
+\input{tex/introduction}
+\input{tex/literaturesurvey}
+\input{tex/proposedsystem}
+\input{tex/implementation}
+\input{tex/results}
+\input{tex/conclusion}
+\input{tex/annexure}
+
+\newpage
+\addcontentsline{toc}{chapter}{References}
+\bibliographystyle{amsplain}
+\pagestyle{plain}
+\bibliography{bib/thesis}
+\newpage
+\addcontentsline{toc}{chapter}{Publications}
+\input{tex/publications}
+
+\end{spacing}
+\end{document}

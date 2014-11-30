@@ -1,0 +1,89 @@
+\setcounter{chapter}{0}
+
+\renewcommand{\chaptername}{annexure}
+
+%\pagenumbering{arabic}
+%{\renewcommand{\addtocontents}[2]{}
+\addcontentsline{toc}{chapter}{Annexure 1}
+\addtocontents{toc}{\protect\setcounter{tocdepth}{-1}}
+\chapter{Title of Annexure}
+\section{Section Title}
+\subsection{Subsection Title}
+\lstset{frame=tb,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\linespread{0.94}\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny,
+  keywordstyle=\bfseries,
+  commentstyle=\itshape,
+  breaklines=true,
+  breakatwhitespace=true
+  tabsize=1,
+  language=Java
+}
+\begin{lstlisting}
+public class mmseq1 {
+	public static void main(String[] args) {
+		int o = 0;
+		mathOperations mo = new mathOperations();
+		stringOperations so = new stringOperations();
+		Stack<Integer> st = new Stack<Integer>();		
+		String input = null;
+		System.out.println("Enter Options 1 to 4");
+		InputStreamReader ir = new InputStreamReader(System.in);
+		BufferedReader bR = new BufferedReader(ir);
+		input = bR.readLine();
+		o = Integer.parseInt(input);
+		if(o ==1){
+			int result = mo.sum(2,3)+mo.diff(5,2);
+			System.out.println(result);
+		}
+		else if(o == 2){
+			double result = so.toInt("123");
+			System.out.println(result);
+		}
+		else if(o == 3){
+			double result = mo.square(4)+so.toInt(so.rev("456"));
+			System.out.println(result);
+		}
+		else if(o == 4){
+			st.push(34);
+			st.push(3);
+			st.push(90);
+			double result = st.pop()+mo.diff(500,st.pop());
+			System.out.println(result);
+		}	
+	}
+}
+
+class mathOperations{
+	int sum(int a, int b){
+		return(a+b);
+	}
+	int diff(int a, int b){
+		return(a-b);
+	}
+	int square(int a){
+		return(a*a);
+	}
+}
+
+class stringOperations{
+	public String rev(String str){
+		return str.intern();
+	}
+	public String cat(String str1, String str2){
+		return str1.concat(str2);
+	}
+	public int toInt(String str){
+		return Integer.parseInt(str);
+	}
+}
+
+\end{lstlisting}
+\newpage
+
+\subsection{Second Subsection}
+\par Add annexes as required. Do not extend beyond 10 pages. Use separate chapters for each annexes.
+\addtocontents{toc}{\protect\setcounter{tocdepth}{5}}

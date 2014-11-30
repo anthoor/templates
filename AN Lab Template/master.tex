@@ -1,0 +1,23 @@
+\documentclass{labrecord}
+
+\begin{document}
+
+%% CREATE THE COVER PAGE FROM THE DEFINITIONS IN 'labrecord.cls'
+\maketitle
+
+%% CREATE THE CERTIFICATE PAGE FROM THE DEFINITIONS IN 'labrecord.cls'
+\makecert
+
+%% GENERATE THE TABLE OF CONTENTS AUTOMATICALLY
+\tableofcontents
+\newpage
+
+%% CONFIGURATIONS FOR RECORD
+\pagenumbering{arabic}
+\renewcommand{\thesection}{\arabic{section}}
+
+%% YOUR PROGRAMS GO HERE
+\input{program1}  %% << LOAD CONTENTS FROM 'program1.tex'
+\input{program2}  %% << LOAD CONTENTS FROM 'program2.tex'
+
+\end{document}
