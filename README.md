@@ -10,4 +10,4 @@ LaTeX Templates for A Bunch of Stuff
 5. **Term Paper Report Template**
 6. **Thesis Template**
 
-[1][http://cfiandra.github.io/Beamer2Thesis/]
+[1]:http://cfiandra.github.io/Beamer2Thesis/
