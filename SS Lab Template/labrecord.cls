@@ -124,7 +124,7 @@
     \ Name \hfill Mr. Rijin I K\\
     \ Designation \hfill Assistant Professor\\
     \vspace{2cm}
-    \ Date :  \hfill \textbf{External Examiner}
+    \ \textbf{Internal Examiner}  \hfill \textbf{External Examiner}
   }
 }
 \pagebreak
