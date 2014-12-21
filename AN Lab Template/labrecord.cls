@@ -13,9 +13,11 @@
 \RequirePackage{setspace}
 \RequirePackage{listings}
 \RequirePackage{pxfonts}
-\RequirePackage{algorithm}
+\RequirePackage[section]{algorithm}
 \RequirePackage{algorithmic}
 
+\numberwithin{figure}{section}
+\numberwithin{table}{section}
 
 %% FORMATTING DEFINITION FOR USING WITH 'lstlisting' ENVIRONMENT
 %% USE 'lstset' COMMAND TO SET THE LANGUAGE
