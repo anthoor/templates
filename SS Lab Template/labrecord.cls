@@ -6,15 +6,15 @@
 
 %% IMPORT DECLARATIONS OF PACKAGES USED IN THE REPORT
 %% ADD ANY NEW PACKAGE YOU USE TO THIS LIST
-\RequirePackage{graphicx}
-\RequirePackage{fancyhdr}
-\RequirePackage{amsmath}
-\RequirePackage{geometry}
-\RequirePackage{setspace}
-\RequirePackage{listings}
-\RequirePackage{pxfonts}
-\RequirePackage[section]{algorithm}
-\RequirePackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{listings}
+\usepackage{pxfonts}
+\usepackage[section]{algorithm}
+\usepackage{algorithmic}
 
 \numberwithin{figure}{section}
 \numberwithin{table}{section}
@@ -78,7 +78,7 @@
 {\bf \huge{MALABAR INSTITUTE OF TECHNOLOGY, ANJARAKANDY}}\\
 \vspace{1cm}
 \begin{figure}[ht]
-{\centering {\includegraphics{aic.png}}\par}
+{\centering {\includegraphics[width=2.5in]{aic.png}}\par}
 \end{figure}
 \vspace{0.15cm}
 {\normalsize \bf { }}
@@ -107,7 +107,7 @@
   \fontsize{12}{12}\selectfont
   \centering{\MakeUppercase{\textbf{DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING}}} \\
   \begin{figure}[ht]
-    {\centering {\includegraphics{jpg/aic.png}}\par}
+    {\centering {\includegraphics[width=2.5in]{jpg/aic.png}}\par}
   \end{figure}
   \vspace{4cm}
   \fontsize{14}{14}\selectfont
@@ -119,7 +119,7 @@
   \onehalfspacing{\centering{\textit{by}}}\\
   {\centering\textbf{YOUR NAME}}\\
   \centering\textbf{Your Reg No}\\
-  \onehalfspacing{ \textit{\centering{of second semester M. Tech in partial fulfillment of the requirements for the award of the degree of Master of Technology in Computer Science and Engineering of the Kannur University during the academic year 2014-2015}}}\\
+  \onehalfspacing{ \textit{\centering{of second semester M. Tech in partial fulfillment of the requirements for the award of the degree of Master of Technology in Computer Science and Engineering of the Kannur University/Kerala Technological University during the academic year 2014-2015}}}\\
   \vspace*{3cm}
   \noindent{
     \textbf{Lab in Charge} \hfill \textbf{Head of Department} \\

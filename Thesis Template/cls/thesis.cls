@@ -5,20 +5,20 @@
 
 \LoadClass[12pt,oneside]{report}
 
-\RequirePackage{graphicx}
-\RequirePackage{fancyhdr}
-\RequirePackage{amsmath}
-\RequirePackage{geometry}
-\RequirePackage{setspace}
-\RequirePackage{nomencl}
-\RequirePackage{times}
-\RequirePackage{url}
-\RequirePackage{titlesec}
-\RequirePackage{algorithm}
-\RequirePackage{algorithmic}
-\RequirePackage{listings}
-\RequirePackage{pxfonts}
-\RequirePackage{footnote}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{nomencl}
+\usepackage{times}
+\usepackage{url}
+\usepackage{titlesec}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{listings}
+\usepackage{pxfonts}
+\usepackage{footnote}
 \usepackage{setspace}
 \makesavenoteenv{tabular}
 \makesavenoteenv{table}
@@ -86,7 +86,7 @@
 	\vspace*{3.5cm}
 	\fontsize{12}{12}\selectfont
     \onehalfspacing{ \textit{\centering{Thesis submitted in partial fulfillment of the requirements for the award of the degree of
-        \textbf{Master of Technology} in \textbf{Computer Science and Engineering} of the \textbf{Kannur University}}}}\\
+        \textbf{Master of Technology} in \textbf{Computer Science and Engineering} of the \textbf{Kannur University/Kerala Technological University}}}}\\
 	\vspace*{1.0cm}
 	\centering{\textit{submitted by}} \\
 	\vspace*{1cm}
@@ -95,7 +95,7 @@
 	\centering{(Reg No. ROLLNO)}	\\
 	\vspace*{6cm}
 	\begin{figure}[ht]
-	{\centering {\includegraphics{images/aic.png}}\par}
+	{\centering {\includegraphics[width=2in]{images/aic.png}}\par}
 	\end{figure}
 	\vspace*{0.5cm}
 	\centering{\textbf{DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING}}	\\

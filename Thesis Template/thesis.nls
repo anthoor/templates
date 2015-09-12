@@ -1,0 +1,22 @@
+\begin{thenomenclature} 
+
+ \nomgroup{A}
+
+  \item [{ANTLR}]\begingroup ANother Tool for Language Recognition\nomeqref {0}
+		\nompageref{viii}
+  \item [{BBD}]\begingroup Block Branch Diagram\nomeqref {0}
+		\nompageref{viii}
+  \item [{CDG}]\begingroup Control Dependence Graph\nomeqref {0}
+		\nompageref{viii}
+  \item [{CFG}]\begingroup Control Flow Graph\nomeqref {0}
+		\nompageref{viii}
+  \item [{DDG}]\begingroup Data Dependence Graph\nomeqref {0}
+		\nompageref{viii}
+  \item [{ORD}]\begingroup Object Relation Diagram\nomeqref {0}
+		\nompageref{viii}
+  \item [{PDG}]\begingroup Program Dependence Graph\nomeqref {0}
+		\nompageref{viii}
+  \item [{SDG}]\begingroup System Dependence Graph\nomeqref {0}
+		\nompageref{viii}
+
+\end{thenomenclature}

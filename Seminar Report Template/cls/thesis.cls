@@ -5,20 +5,20 @@
 
 \LoadClass[12pt,oneside]{report}
 
-\RequirePackage{graphicx}
-\RequirePackage{fancyhdr}
-\RequirePackage{amsmath}
-\RequirePackage{geometry}
-\RequirePackage{setspace}
-\RequirePackage{nomencl}
-\RequirePackage{times}
-\RequirePackage{url}
-\RequirePackage{titlesec}
-\RequirePackage{algorithm}
-\RequirePackage{algorithmic}
-\RequirePackage{listings}
-\RequirePackage{pxfonts}
-\RequirePackage{footnote}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{nomencl}
+\usepackage{times}
+\usepackage{url}
+\usepackage{titlesec}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{listings}
+\usepackage{pxfonts}
+\usepackage{footnote}
 \usepackage{setspace}
 \makesavenoteenv{tabular}
 \makesavenoteenv{table}
@@ -95,7 +95,7 @@
 	\centering{Reg No}	\\
 	\vspace*{6cm}
 	\begin{figure}[ht]
-	{\centering {\includegraphics{images/aic.png}}\par}
+	{\centering {\includegraphics[width=2.5in]{images/aic.png}}\par}
 	\end{figure}
 	\vspace*{0.5cm}
 	\centering{\textbf{DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING}}	\\

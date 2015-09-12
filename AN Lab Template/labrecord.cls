@@ -78,7 +78,7 @@
 {\bf \huge{MALABAR INSTITUTE OF TECHNOLOGY, ANJARAKANDY}}\\
 \vspace{1cm}
 \begin{figure}[ht]
-{\centering {\includegraphics{aic.png}}\par}
+{\centering {\includegraphics[width=2.5in]{aic.png}}\par}
 \end{figure}
 \vspace{0.15cm}
 {\normalsize \bf { }}
@@ -87,7 +87,7 @@
 \vspace{.4cm}
 {\Large \bf {MCS107(P) ADVANCED NETWORKING LAB}\\
 \vspace{2cm}
-{\normalsize \rm {By}}\\                              %%%%%%
+{\normalsize \rm {By}}\\                              %%
 {\bf \normalsize {YOUR NAME}}\\                       %% <<<<<<<<<EDIT HERE PUT YOUR NAME AND ROLL NO
 {\bf \normalsize {YOUR REG NUMBER}}\\                 %%
 \vspace{6cm}
@@ -107,7 +107,7 @@
   \fontsize{12}{12}\selectfont
   \centering{\MakeUppercase{\textbf{DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING}}} \\
   \begin{figure}[ht]
-    {\centering {\includegraphics{jpg/aic.png}}\par}
+    {\centering {\includegraphics[width=2.5in]{jpg/aic.png}}\par}
   \end{figure}
   \vspace{4cm}
   \fontsize{14}{14}\selectfont
@@ -116,11 +116,14 @@
   \fontsize{12}{12}\selectfont
   \onehalfspacing{\textit{Certified that this is a bonafide record of the laboratory work done in the}}\\
   \textbf{\MakeUppercase{MCS107(P) Advanced Networking lab}}\\
-  \onehalfspacing{\centering{\textit{by}}}\\
-  {\centering\textbf{YOUR NAME}}\\
-  \centering\textbf{Your Reg No}\\
-  \onehalfspacing{ \textit{\centering{of first semester M. Tech in partial fulfillment of the requirements for the award of the degree of Master of Technology in Computer Science and Engineering of the Kannur University during the academic year 2014-2015}}}\\
+  \onehalfspacing{\centering{\textit{by}}}\\    %%
+  {\centering\textbf{YOUR NAME}}\\              %%<<< EDIT AND PUT YOUR NAME AND ROLL NO HERE
+  \centering\textbf{Your Reg No}\\              %%
+  \onehalfspacing{ \textit{\centering{of first semester M. Tech in partial fulfillment of the requirements for the award of the degree of Master of Technology in Computer Science and Engineering of the Kannur University/Kerala Technological University during the academic year 2014-2015}}}\\   %% <<< EDIT AND PUT THE UTY NAME AND ACADEMIC YEAR
   \vspace*{3cm}
+  %%
+  %%<<< EDIT THE FOLLOWING LINES
+  %%
   \noindent{
     \textbf{Lab in Charge} \hfill \textbf{Head of Department} \\
     \ Ms. Shyja N K \hfill Mr. Rijin I K\\
