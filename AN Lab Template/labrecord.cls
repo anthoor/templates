@@ -6,15 +6,15 @@
 
 %% IMPORT DECLARATIONS OF PACKAGES USED IN THE REPORT
 %% ADD ANY NEW PACKAGE YOU USE TO THIS LIST
-\RequirePackage{graphicx}
-\RequirePackage{fancyhdr}
-\RequirePackage{amsmath}
-\RequirePackage{geometry}
-\RequirePackage{setspace}
-\RequirePackage{listings}
-\RequirePackage{pxfonts}
-\RequirePackage[section]{algorithm}
-\RequirePackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{listings}
+\usepackage{pxfonts}
+\usepackage[section]{algorithm}
+\usepackage{algorithmic}
 
 \numberwithin{figure}{section}
 \numberwithin{table}{section}
@@ -43,7 +43,7 @@
 \fancypagestyle{plain}{
 \fancyhf{}
 \rhead{}
-\lhead{MCS107(P) Advanced Networking Lab}
+\lhead{10CS6111 Advanced Networking Lab}
 \rfoot{MIT, Anjarakandy}
 \cfoot{\thepage}
 \lfoot{Department of CSE}
@@ -85,9 +85,9 @@
 \vspace*{3cm}
 {\large \bf{LAB RECORD}}\\
 \vspace{.4cm}
-{\Large \bf {MCS107(P) ADVANCED NETWORKING LAB}\\
+{\Large \bf {10CS6111 - ADVANCED NETWORKING LAB}\\
 \vspace{2cm}
-{\normalsize \rm {By}}\\                              %%
+{\normalsize \rm {by}}\\                              %%
 {\bf \normalsize {YOUR NAME}}\\                       %% <<<<<<<<<EDIT HERE PUT YOUR NAME AND ROLL NO
 {\bf \normalsize {YOUR REG NUMBER}}\\                 %%
 \vspace{6cm}
@@ -115,18 +115,18 @@
   \vspace{1cm}
   \fontsize{12}{12}\selectfont
   \onehalfspacing{\textit{Certified that this is a bonafide record of the laboratory work done in the}}\\
-  \textbf{\MakeUppercase{MCS107(P) Advanced Networking lab}}\\
+  \textbf{\MakeUppercase{10CS6111 - Advanced Networking lab}}\\
   \onehalfspacing{\centering{\textit{by}}}\\    %%
   {\centering\textbf{YOUR NAME}}\\              %%<<< EDIT AND PUT YOUR NAME AND ROLL NO HERE
-  \centering\textbf{Your Reg No}\\              %%
-  \onehalfspacing{ \textit{\centering{of first semester M. Tech in partial fulfillment of the requirements for the award of the degree of Master of Technology in Computer Science and Engineering of the Kannur University/Kerala Technological University during the academic year 2014-2015}}}\\   %% <<< EDIT AND PUT THE UTY NAME AND ACADEMIC YEAR
+  \centering\textbf{YOUR REG NO}\\              %%
+  \onehalfspacing{ \textit{\centering{of first semester M. Tech in partial fulfillment of the requirements for the award of the degree of Master of Technology in Computer Science and Engineering of the \\Kerala Technological University during the academic year 2015-2016}}}\\   %% <<< EDIT AND PUT THE UTY NAME AND ACADEMIC YEAR
   \vspace*{3cm}
   %%
   %%<<< EDIT THE FOLLOWING LINES
   %%
   \noindent{
     \textbf{Lab in Charge} \hfill \textbf{Head of Department} \\
-    \ Ms. Shyja N K \hfill Mr. Rijin I K\\
+    \ Ms. Navya Ramesh P P \hfill Mr. Rijin I K\\
     \ Assistant Professor \hfill Assistant Professor\\
     \vspace{2cm}
     \ \textbf{Internal Examiner}  \hfill \textbf{External Examiner}
