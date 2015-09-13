@@ -87,7 +87,7 @@
 \vspace{.4cm}
 {\Large \bf {MCS207(P) SOFTWARE SYSTEMS LAB}\\
 \vspace{2cm}
-{\normalsize \rm {By}}\\                              %%%%%%
+{\normalsize \rm {by}}\\                              %%%%%%
 {\bf \normalsize {YOUR NAME}}\\                       %% <<<<<<<<<EDIT HERE PUT YOUR NAME AND ROLL NO
 {\bf \normalsize {YOUR REG NUMBER}}\\                 %%
 \vspace{6cm}
@@ -118,13 +118,13 @@
   \textbf{\MakeUppercase{MCS207(P) Software Systems lab}}\\
   \onehalfspacing{\centering{\textit{by}}}\\
   {\centering\textbf{YOUR NAME}}\\
-  \centering\textbf{Your Reg No}\\
-  \onehalfspacing{ \textit{\centering{of second semester M. Tech in partial fulfillment of the requirements for the award of the degree of Master of Technology in Computer Science and Engineering of the Kannur University/Kerala Technological University during the academic year 2014-2015}}}\\
+  \centering\textbf{YOUR REG NO}\\
+  \onehalfspacing{ \textit{\centering{of second semester M. Tech in partial fulfillment of the requirements for the award of the degree of Master of Technology in Computer Science and Engineering of the Kerala Technological University during the academic year 2015-2016}}}\\
   \vspace*{3cm}
   \noindent{
     \textbf{Lab in Charge} \hfill \textbf{Head of Department} \\
-    \ Name \hfill Mr. Rijin I K\\
-    \ Designation \hfill Assistant Professor\\
+    \ Name \hfill Name\\
+    \ Designation \hfill Designation\\
     \vspace{2cm}
     \ \textbf{Internal Examiner}  \hfill \textbf{External Examiner}
   }

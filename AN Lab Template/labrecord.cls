@@ -126,8 +126,8 @@
   %%
   \noindent{
     \textbf{Lab in Charge} \hfill \textbf{Head of Department} \\
-    \ Ms. Navya Ramesh P P \hfill Mr. Rijin I K\\
-    \ Assistant Professor \hfill Assistant Professor\\
+    \ Name \hfill Name\\
+    \ Designation \hfill Designation\\
     \vspace{2cm}
     \ \textbf{Internal Examiner}  \hfill \textbf{External Examiner}
   }
