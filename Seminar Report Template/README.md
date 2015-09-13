@@ -22,21 +22,21 @@ Provide a brief description of your work here. Be careful to limit the contents 
 ##### Acknowledgment
 Thank everyone who helped you complete the seminar. The order should be: first the Principal, followed by department head, seminar coordinator and guide. You can thank the rest of the staff and faculty. You may also thank your family and friends, but it would be appropriate only in case of project. Edit `acknowledgement.tex` to do this.
 
-#### List of Abbreviations
+##### List of Abbreviations
 This section is used to list out the abbreviations used in your report. Edit the `abbreviations.tex` file to add the contents in the specified format.
 
-#### Introduction
+##### Introduction
 Edit the `introduction.tex` file to add your introduction to the report. Do not extend it beyond 5 pages. Always end the introduction chapter with the organization of report. Desist from using citations unless absolutely necessary.
 
-#### Literature Survey
+##### Literature Survey
 Describe the various literature you have surveyed here. Give due credits using citations. You can list out research papers, doctoral or masters' thesis, conference proceedings, journal publications, books, web content, etc. Edit the `literaturesurvey.tex` file to do this. Always list your literature in chronological order.
 
 Use the `bib/thesis.bib` file to list your references. Later, include them in your work using `\cite{}` command.
 
-#### Proposed System
+##### Proposed System
 Edit the `proposedsystem.tex` file to add the following. Start with a description of the issues you have identified in the base paper you've selected. Then describe the methods that you've devised to overcome these issues.
 
-#### Conclusion
+##### Conclusion
 Provide a conclusion to your work in `conclusion.tex` file. Highlight your discoveries. Do not be over descriptive.
 
 ### Compiling the Template
