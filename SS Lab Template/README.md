@@ -1,4 +1,4 @@
-# LaTeX Template for Advanced Networking Lab
+# LaTeX Template for Software Systems Lab
 
 ## Organization of Contents
 
