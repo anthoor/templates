@@ -86,13 +86,13 @@
 	\vspace*{3.5cm}
 	\fontsize{12}{12}\selectfont
     \onehalfspacing{ \textit{\centering{Seminar Report submitted in partial fulfillment of the requirements for the award of the degree of
-        \textbf{Master of Technology} in \textbf{Computer Science and Engineering} of the \textbf{Kannur University}}}}\\
+        \textbf{Master of Technology} in \textbf{Computer Science and Engineering} of the \textbf{Kerala Technological University}}}}\\
 	\vspace*{1.0cm}
 	\centering{\textit{submitted by}} \\
 	\vspace*{1cm}
 	\fontsize{13}{13}\selectfont
 	\centering{\textbf{YOUR NAME}}	\\
-	\centering{Reg No}	\\
+	\centering{YOUR REG NO}	\\
 	\vspace*{6cm}
 	\begin{figure}[ht]
 	{\centering {\includegraphics[width=2.5in]{images/aic.png}}\par}
@@ -103,7 +103,7 @@
 	\centering{\textbf{MALABAR INSTITUTE OF TECHNOLOGY\\ANJARAKANDY - 670612}}	\\
 	\vspace*{0.4cm}	
 	\fontsize{12}{13}\selectfont
-	\centering{January 2015}	\\
+	\centering{October 2015}	\\
 	\pagebreak
 	\end{titlepage}
 }
